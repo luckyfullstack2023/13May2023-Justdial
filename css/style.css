@@ -11,10 +11,26 @@ body{
     min-height: 5656px;
 }  */
 header{
-    min-height:81px;
+    height:81px;
 }
 main{
     min-height:3354px;
+}
+ ul>li>a:hover{
+    background-color: #ededed;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.l_menu>li:hover ul{
+    display:block;
+    
+}
+.l_submenu{
+    width:100px;
+    top:60px;
+    /* height:100px; */
+    /* background-color: red; */
+    display:none;
 }
 footer{
     /* min-height:2221px; */
