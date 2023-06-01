@@ -13,12 +13,30 @@
     <div class="container bg-white l_cont l_tbdr ">
          <header class="sticky-top l_tbdr  bg-white" >
             <div class="row h-100">
-                <div class="col-2 l_tbdr mt-4">
-                    <img class= "img-fluid h-50"src="./img/logo.svg"/>
+                <div class="col-4 col-sm-3 a_form_col l_tbdr">
+                    <a href="#" class="d-block h-100">
+                        <img class= "img-fluid mt-2"src="./img/logo.svg"/>
+                    </a>
                 </div>
-                <div class="col-3 l_tbdr mt-4">column-2</div>
-                <div class="col-7 l_tbdr ">
-                    <ul class="nav mt-4 l_menu">
+                <div class="col-8 col-sm-2 a_form_col l_tbdr ">column-2</div>
+                <div class="col-12 col-sm-7 l_tbdr px-0">
+                    
+                    <form class="border border-dark rounded p-1 py-0 m-2 d-block d-sm-none">
+                        <div class="row m-0">
+                            <div class="col-2  px-0  ">
+                                <img class=" btn p-0 ps-1 pt-1  h-100" src="./img/srch2.svg"/>
+                            </div>
+                            <div class="col-8  px-0 ">
+                                <input type="search" class="form-control border border-0" id="exampleInputPassword1">
+                            </div>
+                            <div class="col-2 px-0 ">
+                                <button type="submit" class="  d-block btn p-0 ps-4 pt-1 ">
+                                    <img class="p-0 ps-2 pe-0"src="./img/mike.png"/>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <ul class="nav mt-4 ms-4 l_menu d-none d-sm-block">
                         <li class="nav-item">
                             <a class=" ps-2 pt-0 pb-1 pe-2 nav-link active" aria-current="page" href="#">
                                 <img class="me-1" src="./img/nav_language_icon.svg"/>English
@@ -69,7 +87,7 @@
                                 <img src="./img/jd_login_icon.svg"/>Login/Sign Up
                             </a>
                           </li>
-                      </ul>
+                    </ul>
                 </div>
             </div>
          </header> 

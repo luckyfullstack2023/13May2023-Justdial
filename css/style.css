@@ -11,7 +11,7 @@ body{
     min-height: 5656px;
 }  */
 header{
-    height:81px;
+    min-height:81px;
 }
 main{
     min-height:3354px;
@@ -84,6 +84,12 @@ footer{
     height:18px;
     
 }
+@media screen and (max-width: 576px){
+    .a_form_col{
+        height:50px;
+    }
+}
+
 
 @media (min-width:1400px){
     .container, .container-lg, .container-md, .container-sm{
