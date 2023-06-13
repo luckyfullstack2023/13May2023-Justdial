@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    box-sizing: border-box !important;
+}
 body{
     background-color:#E8E8E8;
 }
@@ -13,9 +17,53 @@ body{
 header{
     min-height:81px;
 }
+
+/* main_css_start */
 main{
     min-height:3354px;
+    background-color: #fff !important;
 }
+.dflex{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+/* col-3 */
+.c3{
+    /* height:64px; */
+    padding:0px 10px 13px 10px !important;
+    margin-bottom:2px !important;
+}
+.aa{
+    /* width:75px !important; */
+    display: block !important;
+    width:68px !important;
+    height:53px !important;
+    /* margin: auto !important; */
+    /* overflow: auto !important; */
+    
+}
+.lwh{
+    width:48px !important;
+    height:36px !important;
+}
+
+ /* span-letter-start */
+.wk{
+    /* display: block  !important; */
+    /* width:100% !important; */
+    margin-bottom: 7px !important;
+    /* color: #414e5a !important; */
+    color: black !important;
+    height:13px !important;
+    width:68px !important;
+    font-size: 10px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+  
+/* main_css_end */
  ul>li>a:hover{
     background-color: #ededed;
     cursor: pointer;
@@ -84,6 +132,62 @@ footer{
     height:18px;
     
 }
+.l_tnr{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+::-webkit-input-placeholder {
+    font-size: 25px;
+    font-weight: bold;
+    color:#333 !important;
+    opacity:0.5 ! important;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+       font-size: 25px;
+       font-weight: bold;
+       color:#333 !important;
+       opacity:0.5 ! important;
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+       font-size: 25px;
+       font-weight: bold;
+       color:#333 !important;
+       opacity:0.5 ! important;
+ }
+ 
+ /* Overriding styles */
+ 
+ ::-webkit-input-placeholder {
+    font-size:15px!important;
+    font-weight: bold;
+    color:#333 !important;
+    opacity:0.5 ! important;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+       font-size:15px!important;
+       font-weight: bold;
+       color:#333 !important;
+       opacity:0.5 ! important;
+ }
+ ::-moz-placeholder {  /* Firefox 19+ */
+       font-size:15px!important;
+       font-weight: bold;
+       color:#333 !important;
+       opacity:0.5 ! important;
+ }
+
+/* span-word-start */
+ @media screen and(min-width:375px) {
+    .font10{
+        font-size: calc(10px + .15vw) !important;
+    } 
+}
+/* span-word-end */
+
+
 @media screen and (max-width: 576px){
     .a_form_col{
         height:50px;
