@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 *{
     box-sizing: border-box !important;
 }
@@ -153,6 +153,21 @@ footer{
 }
 .l_tnr{
     font-family: 'Times New Roman', Times, serif;
+}
+.l_mi1{
+    height:21px !important;
+    color: #363d43;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+.l_mi2{
+    width:52px;
+    height:52px;
+}
+.m3{
+    width:88px !important;
+    height:88px !important;
 }
 
 ::-webkit-input-placeholder {
