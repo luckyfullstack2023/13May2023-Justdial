@@ -83,6 +83,50 @@ main{
     /* background-color: red; */
     display:none;
 }
+/* m22 start */
+ul.l_m22_icon > li > a:hover{
+    background-color: #fff;
+}
+ul.l_m22_icon > li > a > img{
+    width:75px;
+    height:75px;
+}
+ul.l_m22_icon > li > a:hover > img{
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.05);
+}
+.l_mainslider  img{
+    height:275px;
+    width:100%;
+}
+
+.carousel-indicators button{
+    width:6px !important;
+    height:6px !important;
+    
+}
+
+.l_ccp,.l_ccn{
+    visibility: hidden ;
+}
+
+.l_mainslider:hover{
+    cursor:pointer;
+}
+
+.l_mainslider .l_ccp , .l_mainslider .l_ccn{
+    background-color: rgba(0,0,0,0.8);
+    width:30px;
+    height:30px;
+    border-radius: 30px;
+    
+}
+
+.l_mainslider:hover .l_ccp , .l_mainslider:hover .l_ccn{
+    visibility: visible;
+    
+    
+   
+}
 
 
 .fp-1{
