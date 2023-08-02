@@ -33,7 +33,7 @@ main{
     height:120px;
 }
 .m22{
-    height:275px;
+    height:240px;
 }
 
 /* col-3 */
@@ -98,7 +98,7 @@ ul.l_m33_icon > li > a:hover > img{
     box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.05);
 }
 .l_mainslider  img{
-    height:275px;
+    height:240px;
     width:100%;
 }
 
@@ -244,6 +244,48 @@ ul.l_m33_icon > li > a:hover > img{
        font-weight: bold;
        color:#333 !important;
        opacity:0.5 ! important;
+ }
+ .l_xyz{
+    cursor:pointer;
+ }
+ .l_xyz > img{
+    transform-origin: right bottom;
+    transform: scale3d(1,1,1);
+    transition: all .5s;
+ }
+ .l_xyz:hover > img{
+    transform: scale3d(1.1,1.1,1);
+ }
+ .l_xyz > span{
+    transform-origin:left bottom;
+    transform: scale3d(1,1,1);
+    transition: all .5s;
+ }
+ .l_xyz:hover > span{
+    transform: scale3d(1.2,1.2,1);
+ }
+
+ .l_animation{
+    animation-name:myanimation;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-direction: alternate;
+ }
+
+ @keyframes myanimation {
+    0%{
+        transform: translateY(0px);
+    }
+    40%{
+        transform: translateY(0px);
+    }
+    60%{
+        transform: translateY(-40px);
+    }
+    100%{
+        transform: translateY(-40px);
+    }
  }
 
 /* span-word-start */
