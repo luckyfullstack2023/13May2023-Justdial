@@ -4,6 +4,7 @@
 }
 body{
     background-color:#E8E8E8;
+    font-family: 'Poppins', sans-serif !important;
 }
 .l_tbdr{
     border:1px dashed red;
@@ -134,6 +135,12 @@ ul.l_m33_icon > li > a:hover > img{
 .l_orange{
     background-color: #fe610c;
 }
+.l_city_input{
+    background: #EEE;
+}
+.l_city_input2{
+    background:transparent;
+}
 
 .m44{
     height:540px;
@@ -263,6 +270,32 @@ ul.l_m33_icon > li > a:hover > img{
  }
  .l_xyz:hover > span{
     transform: scale3d(1.2,1.2,1);
+ }
+ .l_search_form{
+    position: fixed !important;
+    z-index: 100000;
+    top:10px;
+    left:300px;
+    background-color: #fff;
+    transition:all linear .5s;
+ }
+ .l_scrollToTop{
+    animation-name: stp;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ }
+ @keyframes stp {
+    from{
+        transform: scale(0,0);
+        opacity:0;
+    }
+    to{
+        transform: scale(1,1);
+        opacity:1;
+    }
+    
  }
 
  .l_animation{
