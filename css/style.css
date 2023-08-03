@@ -6,6 +6,9 @@ body{
     background-color:#E8E8E8;
     font-family: 'Poppins', sans-serif !important;
 }
+#exampleModal2{
+    backdrop-filter: blur(15px);
+}
 .l_tbdr{
     border:1px dashed red;
 }
