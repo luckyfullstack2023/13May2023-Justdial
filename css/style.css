@@ -12,6 +12,9 @@ body{
 .l_tbdr{
     border:1px dashed red;
 }
+figure > figcaption {
+    font-size: 14px !important;
+}
 .ll_tbdr{
     border:1px dashed blue;
 }
@@ -254,6 +257,30 @@ ul.l_m33_icon > li > a:hover > img{
        font-weight: bold;
        color:#333 !important;
        opacity:0.5 ! important;
+ }
+ .m55_img1 img{
+    width:92px !important;
+    height:92px !important;
+ }
+ .m55_img2 img{
+    width:92px !important;
+    height:92px !important;
+ }
+ .l_xyz .l_b2b{
+    transform-origin: left center;
+    transform:scale(0.9,0.9);
+    color:#fff;
+    background-color: #075BA0;
+    left: -55px !important;
+    transition: all linear .3s;
+ }
+ .l_xyz:hover .l_b2b{
+    color:#075BA0;
+    background-color: #fff;
+    left:-0px !important;
+ }
+ .l_xyz:hover i{
+    color:#085799;
  }
  .l_xyz{
     cursor:pointer;
